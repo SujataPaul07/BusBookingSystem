@@ -1,0 +1,41 @@
+Project Title : Bus Booking System.
+Description : This is a simple Bus Booking Project, 
+where user can book ticket, update booking and delete their bookings.
+
+Technology Used:
+    1) Programming Language : Python
+    2) Xampp Server
+    3) Mysql
+
+How To Use :
+Step 1:
+Start the xampp server(Apache and MySQL).
+
+Step 2:
+Connect to xampp server giving valid username and password
+
+Step 3:
+Create  a database Bus_Booking
+
+Step 4:
+Create Two Tables:
+    a) Bus1
+    b) Bus2
+
+make columns:
+    1) passenger_name varchar(255),
+    2) passenger_age int
+    3) contact bigint(10)
+    4) boarding_date date,
+    5) departed varchar(255),
+    6) arrival varchar(255),
+    7) ticket_number
+
+Step 5:
+    Open Visual Studio Code.
+    Run The file:
+        py bookingportal.py
+
+
+@Author : Satyam Kumar Jha
+Senior Software Engineer.
